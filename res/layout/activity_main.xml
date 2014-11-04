@@ -1,0 +1,123 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+    
+    <ImageView
+        android:id="@+id/zar4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/zar3"
+        android:layout_toRightOf="@+id/rollButton"
+        android:contentDescription="@string/zar4"
+        android:src="@drawable/na" />
+
+    <ImageView
+        android:id="@+id/zar3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/rollButton"
+        android:layout_marginTop="58dp"
+        android:layout_toLeftOf="@+id/rollButton"
+        android:contentDescription="@string/zar3"
+        android:src="@drawable/na" />
+
+    <ImageView
+        android:id="@+id/zar1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/rollButton"
+        android:layout_marginBottom="96dp"
+        android:layout_toLeftOf="@+id/rollButton"
+        android:contentDescription="@string/zar1"
+        android:src="@drawable/na" />
+
+    <ImageView
+        android:id="@+id/zar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/zar1"
+        android:layout_toRightOf="@+id/rollButton"
+        android:contentDescription="@string/zar2"
+        android:src="@drawable/na" />
+
+    <TextView
+        android:id="@+id/player1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/zar2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="21dp"
+        android:text="@string/player1_text" />
+
+    <TextView
+        android:id="@+id/player2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/zar4"
+        android:layout_centerHorizontal="true"
+        android:layout_alignLeft="@+id/player1"
+        android:layout_marginBottom="20dp"
+        android:text="@string/player2_text" />
+
+    <TextView
+        android:id="@+id/score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/zar4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="35dp"
+        android:text="@string/score_text"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/player2score_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/player1score_title"
+        android:layout_alignBottom="@+id/player1score_title"
+        android:layout_toRightOf="@+id/score"
+        android:text="@string/player2_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/player1score_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/score"
+        android:layout_toLeftOf="@+id/score"
+        android:text="@string/player1_text"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/player2score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/player1score"
+        android:layout_alignBottom="@+id/player1score"
+        android:layout_alignLeft="@+id/player2score_title"
+        android:layout_marginLeft="28dp"
+        android:text="@string/initial_score"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/player1score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/zar3"
+        android:layout_below="@+id/player1score_title"
+        android:layout_marginTop="21dp"
+        android:text="@string/initial_score"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/rollButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="171dp"
+        android:text="@string/rollButton_text" />
+
+</RelativeLayout>

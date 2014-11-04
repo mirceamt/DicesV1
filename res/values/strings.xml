@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Dices v1</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="rollButton_text">Roll!</string>
+    <string name="zar1">Zar1</string>
+    <string name="zar2">Zar2</string>
+    <string name="zar3">Zar3</string>
+    <string name="zar4">Zar4</string>
+    <string name="player1_text">Player 1:</string>
+    <string name="player2_text">Player 2:</string>
+    <string name="score_text">SCORE:</string>
+    <string name="initial_score">0</string>
+
+</resources>
